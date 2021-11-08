@@ -1,2 +1,44 @@
-# Marketimg_metrics
-Yandex affiche: unprofitable traffic sources rejection and the budget reallocation
+# Marketimg metrics
+**Yandex affiche: unprofitable traffic sources rejection and the budget reallocation**
+
+**Цель проекта**: оптимизация расходов, перераспределение бюджета.
+
+**Задача проекта**: отказаться от невыгодных источников трафика.
+
+**Используемые библиотеки**: pandas, numpy, seaborn, matplotlib. 
+
+**Описание данных:** 
+
+*Файл visits_log.csv* хранит лог сервера с информацией о посещениях сайта, 
+
+orders_log.csv — информацию о заказах, а costs.csv — информацию о расходах на маркетинг.
+
+*Структура visits_log.csv*
+
+Uid — уникальный идентификатор пользователя,
+
+Device — категория устройства пользователя,
+
+Start Ts — дата и время начала сессии,
+
+End Ts — дата и время окончания сессии,
+
+Source Id — идентификатор источника перехода на сайт.
+
+*Структура orders_log.csv*
+
+Uid — уникальный идентификатор пользователя,
+
+Buy Ts — дата и время заказа,
+
+Revenue — сумма заказа.
+
+*Структура costs.csv*
+
+source_id — идентификатор рекламного источника,
+
+dt — дата проведения рекламной кампании,
+
+costs — расходы на эту кампанию.
+
+**Данные предоставлены**: Practicum by Yandex
