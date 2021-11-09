@@ -1,4 +1,4 @@
-# Marketimg metrics
+# Marketing metrics
 **Yandex affiche: unprofitable traffic sources rejection and the budget reallocation**
 
 **Цель проекта**: оптимизация расходов, перераспределение бюджета.
